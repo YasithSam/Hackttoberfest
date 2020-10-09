@@ -1868,50 +1868,8 @@ a.load-more:hover {
     background-size: cover;
     background-attachment: fixed;
 }
-#balon {
-	background-image: url("../images/balloon.png");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position:center center;
-	background-size: 100% auto;
-	margin: 0 auto;
-	padding: 0 0 30px;
-	position: relative;
-}
-.parallax-overlay {
-	background-color: rgba(0, 0, 0, 0.58);
-	position: relative;
-	color: #FFFFFF;
-}
-.overlay1 {
-	position: relative;
-	color: #FFFFFF;
-	height: 100%;
-	width:100%
-}
-.overlay2 {
-    height: 100%;
-    position: relative;
-	width:100%
-}
-.balon:before, .parallax-overlay:before, .overlay1:before, .overlay2:before {
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
-	content: "";
-	height: 5px;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 11;
-}
-.balon:after, .parallax-overlay:after, .overlay1:after, .overlay2:after {
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
-	content: "";
-	height: 5px;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	z-index: 10;
-}
+
+
 .my_title_b {
 	margin: 0;
 	text-align: center;
