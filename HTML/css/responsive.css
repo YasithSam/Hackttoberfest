@@ -631,6 +631,7 @@ ul.history-timeline{
 
 .tab-pane .tab-description{
 	float:none;
+	text-align: center;
 	width:100%;
 }
 
@@ -1089,7 +1090,10 @@ h3, .h3 {
     padding: 9px;
 }
 .tab-pane .tab-description {
-    padding: 0 15px;
+    padding: 15px 15px;
+    margin-left: 5px;
+
+    text-align: center;
 }
 .tab-pane .tab-image {
     margin-bottom: 15px;
